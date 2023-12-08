@@ -1,9 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using MvcOnlineCommercialAutomation.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<CommercialContext>(options =>
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddControllers();
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

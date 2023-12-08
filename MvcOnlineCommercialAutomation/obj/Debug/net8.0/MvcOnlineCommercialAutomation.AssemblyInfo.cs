@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcOnlineCommercialAutomation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff4321ad0baa022377a64897c95a61862b945142")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcOnlineCommercialAutomation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcOnlineCommercialAutomation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

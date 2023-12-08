@@ -26,7 +26,7 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public string Picture { get; set; }
 
         public Category Category { get; set; }
-        public SalesTransaction SalesTransaction { get; set; }
+        public ICollection<SalesTransaction> SalesTransactions { get; set; }
 
     }
 }

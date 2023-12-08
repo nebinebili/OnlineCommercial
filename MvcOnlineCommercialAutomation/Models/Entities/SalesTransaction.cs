@@ -13,8 +13,8 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public decimal TotalPrice { get; set; }
 
 
-        public ICollection<Product> Products { get; set; }
-        public ICollection<Client> Clients { get; set; }
-        public ICollection<Employee> Employees { get; set; }
+        public Product Product { get; set; }
+        public Client Client { get; set; }
+        public Employee Employee { get; set; }
     }
 }

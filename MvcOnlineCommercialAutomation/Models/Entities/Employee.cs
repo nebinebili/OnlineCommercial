@@ -20,7 +20,7 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         [StringLength(250)]
         public string Picture { get; set; }
 
-        public SalesTransaction SalesTransaction { get; set; }
+        public ICollection<SalesTransaction> SalesTransactions { get; set; }
         public Department Department { get; set; }
     }
 }
