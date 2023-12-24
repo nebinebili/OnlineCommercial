@@ -9,19 +9,19 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public int ClientId { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(31)]
         public string Name { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(31)]
         public string Surname { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(13)]
+        [StringLength(15)]
         public string City { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(50)]
+        [StringLength(51)]
         public string Mail { get; set; }
 
         public ICollection<SalesTransaction> SalesTransactions { get; set; }
