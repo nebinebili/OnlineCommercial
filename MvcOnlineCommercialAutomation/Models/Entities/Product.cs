@@ -10,11 +10,11 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
 
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(31)]
         public string ProductName { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(31)]
         public string Brand { get; set; }
         public short Stock { get; set; }
         public decimal BuyPrice { get; set; }
@@ -22,7 +22,7 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public bool Exhausted { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(250)]
+        [StringLength(251)]
         public string Picture { get; set; }
 
         public Category Category { get; set; }
