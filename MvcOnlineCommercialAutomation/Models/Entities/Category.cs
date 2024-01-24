@@ -10,7 +10,7 @@ namespace MvcOnlineCommercialAutomation.Models.Entities
         public int CategoryId { get; set; }
 
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
+        [StringLength(31)]
         public string CategoryName { get; set; }
 
         public ICollection<Product> Products { get; set; }
